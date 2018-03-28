@@ -2,6 +2,10 @@
   "name": "Server-Testing-Mini",
   "version": "1.0.0",
   "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "mocha *.test.js"
+  },
   "repository": "https://github.com/nikhilkamineni/Server-Testing-Mini.git",
   "author": "Nikhil Kamineni <nikhil.kamineni@gmail.com>",
   "license": "MIT",
